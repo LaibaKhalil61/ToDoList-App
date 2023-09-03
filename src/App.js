@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import { ToDoWrapper } from './components/TodoWrapper';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='Wrapper'>
+      <ToDoWrapper/>
     </div>
-  );
+  )
+
 }
 
 export default App;
+// To do list
+          // Calculator + quizz app
+          // Day 2: 
+          // weather app + Notes app
+          // Day 3,4:
+          // Netflix Clone
+          // Day 5,6:
+          // car store app
+          // Day 7,8:
+          // Dashboard or Covid stats website
